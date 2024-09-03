@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header img {
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        nav {
+            text-align: center;
+            margin: 10px 0;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        #productos img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado con logo -->
+    <header>
+        <img src="images/logo.png" alt="Logo de la empresa">
+        <h1>Mi Página Web</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#productos">Productos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenido a nuestra página web. Aquí encontrarás la mejor información sobre nuestros productos.</p>
+    </section>
+
+    <!-- Sección de precios -->
+    <section id="precios">
+        <h2>Precios</h2>
+        <p>Consulta nuestras ofertas y precios especiales.</p>
+    </section>
+
+    <!-- Sección de productos -->
+    <section id="productos">
+        <h2>Productos</h2>
+        <p>Estos son algunos de nuestros productos destacados:</p>
+        <div class="galeria">
+            <img src="images/producto1.jpg" alt="Producto 1">
+            <img src="images/producto2.jpg" alt="Producto 2">
+            <img src="images/producto3.jpg" alt="Producto 3">
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
